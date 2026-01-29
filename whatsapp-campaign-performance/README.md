@@ -1,5 +1,4 @@
 # WhatsApp Campaign Performance Analysis for Pharmaceutical Marketing
----
 
 WhatsApp has become an important engagement channel in pharmaceutical marketing, enabling companies to communicate directly with healthcare professionals (HCPs) at scale. Campaigns often involve sending thousands of messages across multiple medical specialties, making performance monitoring a critical but non-trivial task.
 
