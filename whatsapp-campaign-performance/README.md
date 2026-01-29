@@ -1,40 +1,10 @@
-# WhatsApp Campaign Performance Analysis
+# WhatsApp Campaign Performance Analysis for Pharmaceutical Marketing
+---
 
-## Overview
-This project analyzes the performance of a WhatsApp marketing campaign by transforming raw message delivery logs into actionable performance metrics. The analysis combines campaign data with a consent/master database to evaluate engagement, delivery effectiveness, and specialty-based targeting.
+WhatsApp has become an important engagement channel in pharmaceutical marketing, enabling companies to communicate directly with healthcare professionals (HCPs) at scale. Campaigns often involve sending thousands of messages across multiple medical specialties, making performance monitoring a critical but non-trivial task.
 
-## Business Objective
-The objective of this analysis is to automate campaign performance reporting and support data-driven targeting decisions by:
-- Reducing manual reporting effort
-- Identifying engagement patterns by medical specialty
-- Ensuring alignment with consented contacts
+A common challenge for marketing and analytics teams is that WhatsApp campaign data is typically delivered in raw, operational formats. Generating performance reports often requires extensive manual processing in Excel, which is time-consuming, difficult to scale, and prone to inconsistency. At the same time, campaign effectiveness must be evaluated within a consent-compliant framework while still enabling meaningful segmentation to support better targeting decisions.
 
-## Data Sources
-- WhatsApp campaign delivery logs (anonymized)
-- Consent and master contact database (anonymized)
+This project demonstrates an automated analytical workflow that transforms raw WhatsApp campaign logs into structured performance insights. By integrating campaign delivery data with an anonymized consent and master database, the analysis enables accurate measurement of delivery and engagement while ensuring alignment with consented contacts.
 
-## Key Metrics
-- Messages Sent
-- Delivered
-- Opened (Seen)
-- Delivery Rate
-- Open Rate
-- Undelivered Rate
-
-## Analytical Approach
-- Data cleaning and normalization
-- Consent matching
-- KPI engineering
-- Performance segmentation by specialty and ownership
-- Visualization and Excel-ready reporting
-
-## Business Impact
-- Reduced report preparation time from hours to minutes
-- Improved campaign targeting through specialty-level insights
-- Enabled repeatable and scalable campaign analysis
-
-## How to Run
-1. Install dependencies
-2. Open the notebook
-3. Run cells sequentially
-
+Key performance metrics such as delivery rate and open rate are evaluated and segmented by medical specialty and ownership, revealing engagement patterns that are not visible in aggregate results. Through this approach, campaign reporting time can be reduced from hours to minutes, while providing deeper, more actionable insights to support improved targeting and future campaign optimization.
