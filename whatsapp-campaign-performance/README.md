@@ -1,9 +1,7 @@
-# WhatsApp Campaign Performance Analysis for Pharmaceutical Marketing
+# **WhatsApp Campaign Performance Analysis for Pharmaceutical Marketing**
 
-WhatsApp has become an important engagement channel in pharmaceutical marketing, enabling companies to communicate directly with healthcare professionals (HCPs) at scale. Campaigns often involve sending thousands of messages across multiple medical specialties, making performance monitoring a critical but non-trivial task.
+WhatsApp is an important engagement channel in pharmaceutical marketing, enabling companies to reach healthcare professionals (HCPs) at scale across multiple medical specialties. However, campaign data is often delivered in raw operational formats, and reporting typically requires time-consuming manual work in Excel.
 
-A common challenge for marketing and analytics teams is that WhatsApp campaign data is typically delivered in raw, operational formats. Generating performance reports often requires extensive manual processing in Excel, which is time-consuming, difficult to scale, and prone to inconsistency. At the same time, campaign effectiveness must be evaluated in a structured and reliable way while still enabling meaningful segmentation to support better targeting decisions.
+This project presents a repeatable workflow that converts WhatsApp campaign logs into business-ready performance insights. The notebook standardizes key funnel metrics (Sent, Delivered, Clicked), supports segmentation by specialty and ownership, and summarizes results in a reporting-friendly format.
 
-This project demonstrates an automated analytical workflow that transforms raw WhatsApp campaign logs into structured performance insights. By integrating campaign delivery data with an anonymized consent and master database, the analysis enables accurate measurement of delivery and engagement while ensuring alignment with consented contacts.
-
-Key performance metrics such as delivery rate and open rate are evaluated and segmented by medical specialty and ownership, revealing engagement patterns that are not visible in aggregate results. Through this approach, campaign reporting time can be reduced from hours to minutes, while providing deeper, more actionable insights to support improved targeting and future campaign optimization.
+Campaign performance is evaluated using delivery outcomes and click-based engagement as a conservative indicator of interaction. Undelivered messages are reviewed separately to provide operational context (including dominant failure reasons), helping stakeholders interpret results accurately. Overall, this approach reduces reporting time from hours to minutes and supports more focused targeting and campaign optimization.
